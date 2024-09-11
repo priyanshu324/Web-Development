@@ -1,0 +1,38 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    list-style-type: none; 
+    background-color: #000000; 
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    float: left; 
+}
+
+.nav-menu a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+
+.nav-menu a:hover {
+    background-color: #d4cece; 
+}
+
+footer h1 a{
+    color: #ff000f;
+}
+
+main a {
+    color: black; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
