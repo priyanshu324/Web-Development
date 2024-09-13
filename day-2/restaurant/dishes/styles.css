@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#dish-details {
+    text-align: center;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 50%;
+    max-width: 420px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#dish-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#dish-details p {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+#dish-details a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#dish-details a:hover {
+    text-decoration: underline;
+}
+
+#dish-details p strong {
+    font-weight: bold;
+    color: #333;
+}
